@@ -1,9 +1,9 @@
-//use redux toolkit
-import {configureStore} from '@reduxjs/toolkit'
-import functionsReducer from '../function/functions'
+// Assuming both store.js and functionsReducer.js are in the same directory
+import { configureStore } from '@reduxjs/toolkit';
+import functionsReducer from './../state/functions/functions';
 
 export default configureStore({
-    reducer:{
-        counter:functionsReducer
-    }
+  reducer: {
+    todo: functionsReducer,
+  },
 });

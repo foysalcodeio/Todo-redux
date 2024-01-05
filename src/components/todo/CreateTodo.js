@@ -4,15 +4,13 @@ const CreateTodo = () => {
     return (
         <div className='container-fluid'>
             <div className='row'>
-                <div className=' w-50 col-md-10'>
+                <div className='col-md-10'>
                     <input placeholder='task name' type='text' className='form-control' />
-                    <button className='my-2 btn btn-dark'> Add to do</button>
                 </div>
-                <div className='card-body'>
-
+                <div className='col-md-2'>
+                    <button className='btn btn-dark'> Add To-Do</button>
                 </div>
             </div>
-            
         </div>
     );
 };
