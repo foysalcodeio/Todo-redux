@@ -1,4 +1,6 @@
 import React from 'react';
+import CreateTodo from '../components/todo/CreateTodo';
+import Todolist from '../components/todo/Todolist';
 
 const TodoPage = () => {
     return (
@@ -10,7 +12,8 @@ const TodoPage = () => {
                 <h5>My Todo App</h5>
               </div>
               <div className='card-body'>
-                
+                <CreateTodo />
+                <Todolist />
               </div>
             </div>
           </div>
