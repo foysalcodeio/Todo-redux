@@ -10,4 +10,13 @@
 2. import 'bootstrap/dist/css/bootstrap.min.css'
 
 
+#extra package
+1. sweetalert2
+    - npm install sweetalert2
+2. cogo toast
+    - npm install --save @successtar/cogo-toast
+
+
+
+
  
